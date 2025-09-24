@@ -7,6 +7,7 @@ console.log('Here\'s a for loop showing 1...10:\n')
 let i=0;
 do{
     console.log(i+'\n')
+    i++
 }while(i<10)
 
 console.log('Here\'s a for loop showing 1...10:\n')
