@@ -36,11 +36,12 @@ let timesTable = (to) => {
     }
 }
 
-timesTable(4)
+// timesTable(4)
+timesTable(12)
+// timesTable('x')
 
-
-console.log('Here\'s a for loop showing 1...10:\n')
-let nums=[...Array(10).keys()]
-nums.forEach(n=>{
-    console.log(`${num}\n`)
-})
+// console.log('Here\'s a for loop showing 1...10:\n')
+// let nums=[...Array(10).keys()]
+// nums.forEach(n=>{
+//     console.log(`${num}\n`)
+// })
