@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <section class="container">
+        <div class="generate-box">
+            <div class="inputs">
+                <label for="rows" class="rows">Rows:
+                    <input type="number" id="rows" value="10" placeholder="How many rows?">
+                </label>
+                <label for="cols" class="cols">Columns:
+                    <input type="number" id="cols" value="10" placeholder="How many cols?">
+                </label>
+            </div>
+
+            <button id="generate" onclick="createWithHtmlTable(getRowsDesired(), getColumnsDesired())">Generate!</button>
+        </div>
+
+        <div id="output"></div>
+    </section>
+</body>
+<script src="multiplication.js"></script>
+</html>
